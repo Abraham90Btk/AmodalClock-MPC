@@ -2,8 +2,17 @@
 path = '..\Cell_Reports_Code';%
 
 
+%Crate Folder to save Figures
+pathToImages = '.\Figures';
+if ~exist(pathToImages, 'dir')
+    mkdir(pathToImages)
+    mkdir('.\data')
+
+else
+    sprintf('Warning: Folder  exist:\t%s', 'Figures')
+end
+
 addpath(genpath(fullfile(path,'data')))
-addpath(genpath(fullfile(path,'delete_data')))
 addpath(genpath(fullfile(path,'scripts')))
 addpath(genpath(fullfile(path,'Figures')))
 
