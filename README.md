@@ -1,5 +1,5 @@
 # Amodal population clock in the primate medial premotor system for rhythmic tapping
-By Betancourt A., Perez Martinez and Merchant H.
+By Abraham Betancourt,  Oswaldo Perez Martinez and Hugo Merchant.
 ## Contents
 
 The folder 'core' contains libraries for the analysis of each figure.
